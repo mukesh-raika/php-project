@@ -1,17 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-
-    <!-- LOGO -->
     <a class="navbar-brand" href="./">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSjL7R5lglfwENuO8oWtoMBPn_5jVfZuCTA&s" height="40">
     </a>
-
-    <!-- TOGGLER BUTTON -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- MENU -->
     <div class="collapse navbar-collapse" id="navbarNav">
 
       <ul class="navbar-nav me-auto">
@@ -54,7 +48,6 @@
 
       </ul>
 
-      <!-- SEARCH FORM -->
       <form class="d-flex">
         <input class="form-control me-2" type="search" name="search" placeholder="Search questions">
         <button class="btn btn-outline-success" type="submit">Search</button>
