@@ -83,6 +83,15 @@ if(isset($_POST['signup'])){
     echo "Answer is not submitted";  
     }
 
+}else if (isset($_GET["delete"])) {
+    echo $qid= $_GET["delete"];
+     $query= $conn->prepare("delete from questions where id =$qid");
+     $result = $query->execute();
+     if($result){
+           header("location:/project");   
+     }else{
+        echo"Question not deleted";
+     }
 }
 
 
